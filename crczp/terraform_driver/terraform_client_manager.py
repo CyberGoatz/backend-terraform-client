@@ -462,6 +462,9 @@ class CrczpTerraformClientManager:
         for link in topology_instance.get_links():
             port_dict = resources_dict[f'{stack_name}-{link.name}']['instances'][0]['attributes']
             link.ip = self.cloud_client.get_private_ip(port_dict)
-            link.mac = port_dict['mac_address']
+            mac_address = port_dict.get('mac_address')
+            if (not mac_address) and hasattr(self.cloud_client, 'get_mac_address'):
+                mac_address = self.cloud_client.get_mac_address(port_dict)
+            link.mac = mac_address
 
         return topology_instance

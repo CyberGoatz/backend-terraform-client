@@ -6,6 +6,7 @@ from crczp.cloud_commons import CrczpCloudClientBase, TopologyInstance, Transfor
 # Available cloud clients
 from crczp.openstack_driver import CrczpOpenStackClient
 from crczp.aws_driver.aws_client import CrczpAwsClient
+from crczp.azure_driver import CrczpAzureClient
 from crczp.topology_definition.models import TopologyDefinition, DockerContainers
 
 from crczp.terraform_driver.terraform_backend import CrczpTerraformBackend
@@ -17,6 +18,7 @@ from crczp.terraform_driver.terraform_client_manager import CrczpTerraformClient
 class AvailableCloudLibraries(Enum):
     OPENSTACK = CrczpOpenStackClient
     AWS = CrczpAwsClient
+    AZURE = CrczpAzureClient
 
 
 class CrczpTerraformClient:
