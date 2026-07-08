@@ -1,6 +1,6 @@
 [project]
 name = "cybergoatz-terraform-client"
-version = "1.0.1"
+version = "1.0.2"
 description = "CyberGoatz platform Terraform orchestration client"
 readme = "README.md"
 license = "MIT"
@@ -14,7 +14,7 @@ dependencies = [
     "crczp-openstack-lib~=1.0.0",
     "crczp-aws-lib~=1.0.1",
     "Jinja2>=3.1.6",
-    "cybergoatz-azure-lib>=1.0.2",
+    "cybergoatz-azure-lib>=1.0.3",
 ]
 
 [project.urls]
