@@ -451,7 +451,7 @@ wheels = [
 
 [[package]]
 name = "cybergoatz-azure-lib"
-version = "1.0.2"
+version = "1.0.3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "azure-identity" },
@@ -462,9 +462,9 @@ dependencies = [
     { name = "jinja2" },
     { name = "pyyaml" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/9a/ed/7ac33fee45ae9743a7a1b1899941062819ffe03256525290f596b318b529/cybergoatz_azure_lib-1.0.2.tar.gz", hash = "sha256:20d026d4e6d07bfc453307f53a5dfdf3c2c6433670ca34d9982a013711fe589b", size = 70381, upload-time = "2026-07-08T06:34:44.308Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/18/47/6dab21aa19652b45c7a5885ddc6fb7de3be4400c00f8d2fa6e0f41c62451/cybergoatz_azure_lib-1.0.3.tar.gz", hash = "sha256:dedef3a17ce0213a6bde75f3c7d8cc6550a6aaeaf7523f86180f988939ae65ab", size = 70369, upload-time = "2026-07-08T11:47:35.553Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/51/19/40561139fb4febecca8ba05fcf924bb09d32b48b1e82857cf78fda0a44de/cybergoatz_azure_lib-1.0.2-py3-none-any.whl", hash = "sha256:c28422645b77054a663ebab81f6c59ae34198d82c0495a917834841dea62a37e", size = 12412, upload-time = "2026-07-08T06:34:43.485Z" },
+    { url = "https://files.pythonhosted.org/packages/b5/27/cb9702861627cd7d4fb8f0b70f2d0e31c35dcf77f43960c5f5babe769803/cybergoatz_azure_lib-1.0.3-py3-none-any.whl", hash = "sha256:b7be84f705629a1154cc350c66b570ef563eaa08ebe966846308137d77d6d06d", size = 12401, upload-time = "2026-07-08T11:47:34.644Z" },
 ]
 
 [[package]]
